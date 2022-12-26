@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    
+<style>
+
+.bg{
+background-image: ("window.jpg");
+
+/* Full height */
+height: 1000px;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+
+.z{
+		  color: #00c3ff;
+		  font-size: 50px;
+		  font-family: Georgia, serif;
+ }
+        
+        .center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border:3px rgb(1, 6, 10)
+}
+
+        input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #13ffeb81;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+    
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color:  #13ffeb81;
+  color: white;
+  display: flex;
+  align-items: center;
+  }
+    
+  input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color:  #13ffeb81;
+  color: white;
+  display: flex;
+  align-items: center;
+  }
+    
+  input[type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #13ffeb81;
+  color: white;
+  display: flex;
+  align-items: center;
+  }
+    
+  input[type=date] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color:  #13ffeb81;
+  color: white;
+  display: flex;
+  align-items: center;
+  }
+    
+  input[type=checkbox] {
+  border : 2px solid black;
+  }
+    .button {
+  background-color:   #373837c2; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+    
+.button1 {
+  background-color: rgba(73, 71, 71, 0.644); 
+  color: rgb(206, 197, 197); 
+  border: 2px solid  #1fff3d;
+}
+    
+.button1:hover {
+  background-color:  #29ff57;
+  color: white;
+}
+    
+ #box{
+  background-image:linear-gradient(to top,rgba(0, 0, 0, 0.555),rgba(255, 255, 255, 0.418) );
+ text-align:left;
+border:2px solid rgb(95, 93, 93);
+margin-left: -410px;
+height: 100%;
+     justify-content: center;
+     display: grid;
+     grid-template-columns: 50% 50%;
+     grid-column-gap: 40px;
+     width: 200%;
+     padding: 50px;
+     
+}
+    .left, .right{
+        display: inline-block;
+    }   
+    
+.R {
+font-size: 70PX;
+font-family: fantasy;
+color:#2b2b2b;
+
+}
+.kisan{
+  height: 400px;
+  width: 770px;
+}
+    
+.d {
+font-size: 30PX;
+font-family: fantasy;
+color:#fffefe;
+}
+    div{
+        width: 100%;
+    }
+    
+.n{
+background-color:rgb(126, 126, 126);
+}
+    
+.checkbox { 
+  color: white;
+  font-size: 40px;
+}
+  
+ .radio {
+ size: 40px;
+}
+
+</style>
+
+
+</head>
+<body class="n">
+
+  <div>
+    <ul class="nav-list">
+      <li><a href='HOME.html'>Home</a></li>
+        <li><a href='register.html'>Register</a></li>
+        <li><a href='destination1.html'>Plan Journey</a></li>
+        <li><a href='Login1.html'>Login</a></li>
+        <li><a href='freight intro.html'>Freight</a></li>
+        <li><a href='Login1.html'>Logout</a></li>
+
+        </ul>
+        
+        <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+        <script src="main.js"></script>
+    <div class="center">
+  
+       <div id="box">
+           
+           <div class="left">
+   <h2 CLASS="R">Conatiner Carriage</h2>
+  <BR>
+  <br>
+  <form action = "freight.php" method = "POST">
+<label >Owner Name</label>
+<input type="text" id="fname" name="oname" value="Enter your name">
+<label >Company Name</label>
+<input type="text" id="Lname" name="cname" value="Enter Company/Firm Name">
+<label >Phone no.</label>
+<input type="text" id="Lname" name="phone2" value="Enter Phone no.">
+<label >Adddress</label>
+<input type="text" id="Lname" name="address" value="Enter Adddress">
+<label>GST IN No.</label>
+<input type="text" id="Lname" name="gstin" value="GST IN No.">
+<label >E-mail Address</label>
+<input type="text" id="Lname" name="email" value="Email Adddress">
+<label>Freight Source </label>
+<input type="text" id="Lname" name="source2" value="Enter the source">
+<label>Freight Destination </label>
+<input type="text" id="Lname" name="dest2" value="Enter the destination">
+<label>Goods Quantity </label>
+<input type="text" id="Lname" name="qty" value="Enter quantity of goods">
+<label>Date of Loading </label>
+<input type="date" id="Lname" name="date2" value="Enter date of loading">
+<div>
+  <div class="checkbox">
+<h2>Payment Details</h2>
+<table class = "fpayment" id = "fpayment">
+<!--
+  <tr>
+<td> PAYTM <input class="radio" type = "checkbox" name = "fpay[]" class = "product-list" /> </td>
+  </tr>
+-->
+  <tr>
+  <td> DD <input type = "checkbox" name = "fpay[]"  class = "product-list"/> </td> 
+  </tr>
+  <tr>
+<td> Cheque <input type = "checkbox" name = "fpay[]" class = "product-list"/> </td>
+  </tr>
+  <tr>
+<td> Cash <input type = "checkbox" name = "fpay[]" class = "product-list"/> </td>
+  </tr>
+<!--
+  <tr>
+<td> GOOGLE PAY <input type = "checkbox" name = "fpay[]" class = "product-list"/> </td>
+</tr>
+-->
+</table>
+<script type="text/javascript">
+  $('.product-list').on('change', function() {
+   $('.product-list').not(this).prop('checked', false);  
+     });
+   </script>
+   </div>
+   </div>
+   <button class="button button1" name = "Book">Book Wagon</button><br><br>
+</form>
+      </div>
+      
+    <div class="right">  
+      
+<img class="kisan" src="Container1.jpg">
+<div class="d">freight type : kisan rail</div>
+<div class="d">The 'Kisan Rail' is a weekly service that will depart from Deolali, Nashik every Friday at 11 am and reach Danapur, Bihar the next day at 6.45 pm</div>
+<div class="d">The train will cover a distance of 1,519 kms in 31.45 hours on a single trip and will halt at Nashik Road, Manmad, Jalgaon, Bhusaval, Burhanpur, Khandwa, Itarsi, Jabalpur, Satna,<br> Katni, Manikpur, Prayagraj Chheoki, Pandit Deen Dayal Upadhyay junction and Buxar stations.</div>
+<div class="d">The consignment can be as small as 50-100 kgs</div>
+      </div>
+</div>
+           
+</div>
+        
+    </div>
+      
+</div>    
+    
+</div>
+
+</body>
+
+</html>

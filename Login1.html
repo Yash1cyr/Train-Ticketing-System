@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
+
+<style>
+img{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    position: absolute;
+}
+
+.bg{
+background-image: url("login\ \(2\).jpg");
+
+/* Full height */
+height: 1000px;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.header {
+		  background-color: #302f30;
+		  padding: 30px;
+		  text-align: center;
+          }
+
+   
+
+.z{
+		  color: #00c3ff;
+		  font-size: 50px;
+		  font-family: Georgia, serif;
+
+        }
+       label{
+         font-family:"Source Sans Pro";
+         font-size:20px;
+
+       }
+
+        .center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border:40px rgb(1, 6, 10)
+}
+
+        input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  align-items:center;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color: #2b2b2bd0;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  background-color:  #2b2b2bd0;
+  color: white;
+  display: flex;
+  align-items: center;
+  }
+
+
+    .button {
+  background-color:   #3ee72e; 
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  text-align: center;
+  
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: rgb(100, 96, 96); 
+  color: rgb(206, 197, 197); 
+  font-family: "Source Sans Pro";
+    font-size: 20px;
+  border: 2px solid  #8f8f8f;
+}
+.button1:hover {
+  background-color:  #a4b4a7;
+  color: white;
+}
+.button2 {
+  background-color: rgb(100, 96, 96); 
+  color: rgb(206, 197, 197); 
+  border: 2px solid #a3a3a3;
+  font-family: "Source Sans Pro";
+    font-size: 20px;
+}
+
+.button2:hover {
+  background-color:  #a4b4a7;
+  color: white;
+}
+
+ #box{
+ background-image:linear-gradient(to top,rgba(255, 255, 255, 0.712),rgba(236, 236, 236, 0.699) );
+
+padding:20px;
+margin-top: 8%;
+margin-left:30%;
+max-width: 400px;
+height: 450px;
+}
+.m{
+  text-align:center;
+  font-size: 45px;
+font-family: "Anton";
+border-bottom: 5px dotted black;
+width:107px;
+
+}
+::placeholder{
+color:white;
+}
+</style>
+
+
+</head>
+<body>
+    <div class="bg">
+      <div>
+        <ul class="nav-list">
+            <li><a href='index.html'>Home</a></li>
+            <li><a href='register2.html'>Register</a></li>
+            <li><a href='destination1.html'>Plan Journey</a></li>
+            <li><a href='Login1.html'>Login</a></li>
+            <li><a href='freight intro.html'>Freight</a></li>
+            <li><a href='Login1.html'>Freight</a></li>
+            
+           
+          
+            </ul>
+            
+            <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <script src="main.js"></script>
+      </div>
+      <div id="background">
+        
+          
+   </div>
+  <div class="center">
+   
+<div id="box">
+   <h2 class="m" >Log In</h2>
+  <BR>
+  <br>
+  <form action = "login.php" method = "POST">
+<label>username</label>
+<input type="text" name = "Uname1" placeholder  = "Enter your username">
+<label>password</label>
+<input type="password" name = "password1" placeholder = "Enter your password">
+<button class="button button1" name = "login">Log In</button>
+
+</form>
+
+<button class="button button2" onclick="openWin()">Register</button>
+<script>
+function openWin() {
+  window.open("register.html");
+}
+</script>
+</div>
+</div>
+    </div>
+    
+    </div>
+    
+
+    
+    
+    
+ 
+
+
+
+</div>
+</body>
+</html> 
+</body>
+</html>

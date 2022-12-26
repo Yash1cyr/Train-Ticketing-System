@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html>
+    
+<head>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anton">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source Sans Pro">
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.main.js"></script>
+    
+<style>
+    
+.bg{
+background-image: url(Best-and-most-scenic-rail-journeys-in-India-social-media-blog-image.jpg);
+
+/* Full height */
+height: 1000px;
+
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.z{
+		  color: #00c3ff;
+		  font-size: 50px;
+		  font-family: Georgia, serif;
+
+        }
+        
+        .center {
+  margin: auto;
+  width: 40%;
+  padding: 0.1px;
+/*  border:3px rgb(1, 6, 10);*/
+}
+
+       ::placeholder{
+color:white;
+
+}
+
+        input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+            background-color:  #2b2b2bd0;
+  border-bottom: 2px solid black;
+}
+    
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+    background-color:  #2b2b2bd0;
+  border-bottom: 2px solid black;
+  }
+    
+  input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+  border: none;
+  color: white;
+  display: flex;
+  align-items: center;
+      background-color:  #2b2b2bd0;
+  border-bottom: 2px solid black;
+  }
+    
+  input[type=tel] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid black;
+  color: white;
+  display: flex;
+  align-items: center;
+      background-color:  #2b2b2bd0;
+  border-bottom: 2px solid black;
+  }
+
+  input[type=email] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-bottom: 2px solid black;
+  box-sizing: border-box;
+  border: none;
+      background-color:  #2b2b2bd0;
+  border-bottom: 2px solid black;
+  color: white;
+  display: flex;
+  align-items: center;
+  }
+
+    .button {
+  background-color:   #373837c2; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
+label{
+  font-family: "Source Sans Pro";
+        font-size: 20px;
+        color: white;
+}
+.button1 {
+  background-color: rgba(73, 71, 71, 0.644); 
+  color: rgb(206, 197, 197); 
+  border: 2px solid  #1fff3d;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+}
+.button1:hover {
+  background-color:  #29ff57;
+  color: white;
+}
+ #box{
+ background-image:linear-gradient(to top,rgba(0, 0, 0, 0.555),rgba(255, 255, 255, 0.418) );
+border:2px solid rgb(95, 93, 93);
+padding:30px;
+margin:120px;
+height: 780px;
+}
+.R {
+  font-family: "Anton";
+  font-size: 45px;
+  border-bottom: 5px dotted black;
+  width: 149px;
+
+}
+
+</style>
+
+</head>
+    
+<body>
+    
+ <div class="bg">
+     
+  <div>
+      
+    <ul class="nav-list">
+        
+      <li><a href='HOME.html'>Home</a></li>
+        <li><a href='register.html'>Register</a></li>
+        <li><a href='destination1.html'>Plan Journey</a></li>
+        <li><a href='Login1.html'>Login</a></li>
+        <li><a href='freight intro.html'>Freight</a></li>
+        <li><a href='Login1.html'>Logout</a></li>
+        
+        </ul>
+        
+        <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+        </div>
+      
+        <script src="main.js"></script>
+      
+    <div class="center">
+  
+       <div id="box">
+           
+   <h2 CLASS="R">Register</h2>
+           <BR></BR>
+  <br>
+           
+  <form action = "register.php" method = "post">
+<label class = "label" >Username</label>
+<input type="text"  name="Uname1" placeholder = "Enter your username">
+<label class = "label"> Name</label>
+<input type="text"  name="Name1" placeholder = "Enter your name" >
+<label class = "label">Password</label>
+<input type="password"  name="password1" placeholder="Enter your password " >
+<label class = "label">Age</label>
+<input type="number" name="age" placeholder = "Enter your age">
+<label class = "label">Phone no.</label>
+<input type="tel"  name="phone1"  placeholder="Enter your phone no">
+<label class = "label">Enter your e-mail</label>
+<input type = "email" name = "Email" placeholder = "Enter your e-mail"> <br>
+<button class="button button1" name = register onclick="openwin()">Register</button>
+<script>
+  function openWin() {
+    window.open("Login1.html");
+  }
+  </script>
+      
+</form>
+
+</div>
+        
+</div>
+      
+    </div>
+     
+</div>    
+ 
+</body>
+    
+</html>
